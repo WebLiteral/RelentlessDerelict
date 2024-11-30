@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: boldfinger; 
+    src: url('fonts/Boldfinger.ttf')
+}
+
+@font-face {
+    font-family: datatrash; 
+    src: url('fonts/DataTrash.ttf')
+}
+
+@font-face {
+    font-family: dollmaker; 
+    src: url('fonts/RussianDollmaker.otf')
+}
+
+@font-face {
+    font-family: vinyl; 
+    src: url('fonts/vinyl.ttf')
+}
+
+
+@font-face {
+    font-family: BebasNeue; 
+    src: url('fonts/BebasNeue.ttf')
+}
+
+
+@font-face {
+    font-family: SquadaOne; 
+    src: url('fonts/SquadaOne.ttf')
+}
+
+@font-face {
+    font-family: Niagara; 
+    src: url('fonts/Niagara.ttf')
+}
+
+
+@font-face {
+    font-family: Cambria; 
+    src: url('fonts/Cambria.ttf')
+}
+
+@font-face {
+    font-family: OldEnglish; 
+    src: url('fonts/Abril.ttf')
+}
+
+
+/* css dedicated to just article styling */
+div.articlestyling li {
+margin-left: 2rem;
+list-style-type: disc;
+
+}
+
+.lh-doubleborders {
+    @apply border-t-2 border-b-2 border-white;
+}
+
+.lh-bigtitle {
+    @apply font-oldenglish text-8xl w-max pb-3 pt-1 px-4 m-10 w-1/2  text-center;
+}
+
+.lh-artworklabel {
+    @apply align-top font-bold w-1/2 inline-block;
+}
+
+.lh-artworklabel2 {
+    @apply align-top w-1/2 inline-block;
+}
+
+.cascadelist ul>li::before {
+    content: "┕ ";
+}
+
+.cascadelist > li {
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
