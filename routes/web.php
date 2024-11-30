@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/dashboard', function () {
@@ -23,28 +23,32 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
-
+require __DIR__ . '/auth.php';
 
 
 
 Route::view('/home', 'home');
 
-Route::view('/about', 'about');
+Route::view('/services', 'services');
 
-Route::view('/changelog', 'changelog');
+Route::view('/portfolio', 'portfolio');
 
-Route::view('/community/fanart', [FanartController::class, 'index']);
-
-Route::get('/discography', [MusicController::class, 'index']);
-Route::get('/discography/{slug}', [MusicController::class, 'show']);
-
+Route::view('/contact', 'contact');
 
 Route::get('/gallery', [CollectionController::class, 'index']);
 Route::get('/gallery/collection/{slug}', [CollectionController::class, 'show']);
 Route::get('/gallery/artwork/{slug}', [ArtworkController::class, 'show']);
 
-Route::get('/articles', [ArticleController::class, 'index']);
-Route::get('/articles/{slug}', [ArticleController::class, 'show']);
 
-Route::view('/sitemap', 'sitemap');
+// Route::view('/community/fanart', [FanartController::class, 'index']);
+
+// Route::get('/discography', [MusicController::class, 'index']);
+// Route::get('/discography/{slug}', [MusicController::class, 'show']);
+
+
+
+
+// Route::get('/articles', [ArticleController::class, 'index']);
+// Route::get('/articles/{slug}', [ArticleController::class, 'show']);
+
+// Route::view('/sitemap', 'sitemap');

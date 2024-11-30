@@ -1,9 +1,8 @@
 @extends('layouts.base')
 
-@section('title', 'About')
+@section('title', 'Welcome Home.')
 
 @section('content')
-
 
 
 <div class="bg-black flex justify-center">
@@ -14,10 +13,13 @@
             <img class='object-contain pb-12 w-1/3 h-auto max-w-[180px]' src="/img/literalhat-dolly-and-elliot.png">
 
 
-            <p class="lg:pb-0 pb-6">Hi, I'm Hat.</p>
-            <p class="lg:pb-0 pb-6">I'm a full time web developer.</p>
-            <p class="lg:pb-0 pb-6">All the work you see here is made my spare time.</p>
-
+            <p class="lg:pb-0 pb-6">For all business-related inquiries,
+                please contact me via
+                email:
+            </p>
+            <p class="font-bebas text-nowrap uppercase text-[clamp(0px,10vw,150px)]">contact@literalhat.com</p>
+            <p class="lg:pb-0 pb-6">I do not use social media in any capacity.
+            </p>
 
         </div>
     </div>
@@ -29,5 +31,6 @@
         padding: 15vh 5vw 50vh;
     }
 </style>
+
 
 @endsection

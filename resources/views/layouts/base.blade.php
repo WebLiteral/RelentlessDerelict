@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'LiteralHat.com')</title>
-    @vite(['resources/css/app.css', 'resources/js/randomsong.js'])
+    <title></title>
+    @vite('resources/css/app.css')
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
 </head>
 
-<body class="bg-black">
+<body class="w-full bg-black overflow-x-hidden">
 
-   @include('nav.header')
-@include('nav.subheader')
+    @include('nav.header')
 
-    
-    <div class="h-max bg-black flex justify-center">
-        <div class="w-4/5  pt-6 p-6 text-white font-cambria">
-                @yield('content')
-        </div>
-    </div>
-
+    @yield('content')
 
     @include('nav.footer')
 
