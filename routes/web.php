@@ -27,17 +27,21 @@ require __DIR__ . '/auth.php';
 
 
 
-Route::view('/home', 'home');
-
 Route::view('/services', 'services');
 
 Route::view('/portfolio', 'portfolio');
 
 Route::view('/contact', 'contact');
 
-Route::get('/gallery', [CollectionController::class, 'index']);
+
+Route::view('/gallery', 'gallery');
+
+
+Route::get('/gallery', [CollectionController::class, 'index'])->name('gallery');
 Route::get('/gallery/collection/{slug}', [CollectionController::class, 'show']);
 Route::get('/gallery/artwork/{slug}', [ArtworkController::class, 'show']);
+
+
 
 
 // Route::view('/community/fanart', [FanartController::class, 'index']);

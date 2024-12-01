@@ -11,12 +11,25 @@ export default {
 
     theme: {
         extend: {
+            colors: {
+                'dark':  '#0b0b0b',
+                'light':  '#fafafa',
+                'vintage-1': '#45191f',
+                'vintage-2': '#7D1b16',
+                'vintage-3': '#e0A14A',
+                'vintage-4': '#EFDAAF',
+                'vintage-5': '#2E7571',
+                'vintage-6': '#524546',
+          
+            },
             boxShadow: {
                 '3xl': '0 0 15px 0 black'
             },
             fontFamily: {
                 bebas: ['bebas'],
                 poppins: ['poppins'],
+                engebrechtre: ['engebrechtre'],
+        verdana: ['Verdana', 'Geneva', 'sans-serif'],
             },
             animation: {
                 'fade-in': 'fadeIn 1s ease-in-out',

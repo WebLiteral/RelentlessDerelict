@@ -11,9 +11,9 @@
 
 </head>
 
-<body class="w-full bg-dark text-light overflow-x-hidden">
+<body class="w-full bg-light text-dark overflow-x-hidden font-sans">
 
-    @include('nav.header')
+    @include('nav.gallery')
 
     @yield('content')
 

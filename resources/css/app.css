@@ -11,3 +11,16 @@
     font-family: "bebas";
     src: url('fonts/bebas-neue.ttf') 
 }
+
+@font-face {
+    font-family: "engebrechte";
+    src: url('fonts/engebrechtre.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "engebrechte";
+    src: url('fonts/engebrechtre-bold.ttf');
+    font-weight: 700;
+}
+

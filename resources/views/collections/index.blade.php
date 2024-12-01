@@ -1,13 +1,11 @@
-@extends('layouts.base')
+@extends('layouts.gallery')
 
 @section('title', 'Gallery')
 
 @section('content')
 
 
-<div class='flex flex-col items-center font-cambria '>
-
-    <h1 class="text-7xl w-max  pb-3 pt-1 px-4 m-10">{{$collection->title}}</h1>
+    <h1 class="text-7xl pb-3 pt-1 px-4 m-10">{{$collection->title}}</h1>
     <img src="{{$collection->file_url}}"></img>
 
 
@@ -31,7 +29,6 @@
 
         </ul>
     </div>
-</div>
 
 
 

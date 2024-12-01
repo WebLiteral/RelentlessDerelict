@@ -1,6 +1,6 @@
 <!-- I know it's awful but bare with me I can't come up with a better solution at the moment :s -->
-<div class="bg-black flex justify-center">
-    <ul class="text-white flex justify-between font-cambria text-sm w-4/5">
+<div class="bg-dark flex justify-center">
+    <ul class="text-light flex justify-between font-cambria text-sm w-4/5">
 
         <li>Cat Sounds!</li>
         <span>|</span>

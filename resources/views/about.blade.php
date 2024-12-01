@@ -6,10 +6,10 @@
 
 
 
-<div class="bg-black flex justify-center">
+<div class="bg-dark flex justify-center">
 
     <div class="mx-auto w-full  max-w-[1000px]">
-        <div class="text-white text-wrap flex flex-col items-center font-poppins text-center" id="heightbox">
+        <div class="text-light text-wrap flex flex-col items-center font-poppins text-center" id="heightbox">
 
             <img class='object-contain pb-12 w-1/3 h-auto max-w-[180px]' src="/img/literalhat-dolly-and-elliot.png">
 

@@ -20,7 +20,7 @@
 </div>
 
 
-<div class="bg-black border-t-2 border-white text-white px-2 object-cover shadow-3xl">
+<div class="bg-dark border-t-2 border-light text-light px-2 object-cover shadow-3xl">
     <h1
         class="font-bebas uppercase lg:text-[clamp(0px,10vw,100px)] text-[clamp(0px,15vw,200px)] text-nowrap text-center">
         I make
@@ -29,9 +29,9 @@
 </div>
 
 
-<div id="heroimage" class="w-full bg-black  flex items-center justify-center">
+<div class="w-full bg-dark  flex items-center justify-center">
 
-    <div class="social-links text-white flex lg justify-between w-[500px] p-5">
+    <div class="social-links text-light flex lg justify-between w-[500px] p-5">
         <a href="https://www.youtube.com/c/literalhat" target="_blank" title="YouTube">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="miter">

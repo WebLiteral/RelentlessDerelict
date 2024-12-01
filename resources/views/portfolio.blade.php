@@ -9,7 +9,7 @@
 
 <x-titlecard>Portfolio</x-titlecard>
 
-<div class="bg-black flex justify-center">
+<div class="flex justify-center">
 
     <div class=" flex justify-center flex-wrap mx-auto w-full  max-w-[1000px] animate-fade-in">
 

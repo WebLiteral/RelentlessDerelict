@@ -9,9 +9,9 @@
 
 
 
-<div class="bg-black flex flex-col justify-center">
+<div class="bg-dark flex flex-col justify-center">
     <div class=" flex justify-center flex-wrap mx-auto w-full  max-w-[1000px] animate-fade-in">
-        <div class="flex flex-col items-center p-5 justify-start font-poppins text-white w-full max-w-7xl border-white">
+        <div class="flex flex-col items-center p-5 justify-start font-poppins text-light w-full max-w-7xl border-light">
             <div class="px-3 p-12 flex flex-col items-center text-center">
                 <p class="text-xl">Please send an email detailing the type of item you want, with an
                     image/s of your
@@ -22,14 +22,14 @@
     </div>
 
 
-    <div class="bg-black border-y-2 border-white text-white px-2 object-cover ">
+    <div class="bg-dark border-y-2 border-light text-light px-2 object-cover ">
         <h1 class="font-bebas uppercase text-[clamp(0px,8vw,90px)] text-nowrap text-center ">Catalog</h1>
     </div>
 
 
 
     <div class=" flex justify-center flex-wrap mx-auto w-full  max-w-[1000px] animate-fade-in">
-        <div class="flex flex-col items-center p-5 justify-start font-poppins text-white w-full max-w-7xl border-white">
+        <div class="flex flex-col items-center p-5 justify-start font-poppins text-light w-full max-w-7xl border-light">
 
 
             <x-servicecard 
@@ -44,10 +44,10 @@
 
 
             <x-servicecard 
-            title="Black and White Sticker Illustration" 
+            title="dark and light Sticker Illustration" 
             price="95 USD" 
             description="Flat illustration of your character. You may choose the
-                    expression, and pose. Small props allowed, free of charge. Strictly black and white only. You get a
+                    expression, and pose. Small props allowed, free of charge. Strictly dark and light only. You get a
                     transparent (.png) and a flat version. 2 revisions allowed. 1000
                     x 1000 px." 
             ><img class='w-64' src="/img/services/bw/1.webp">

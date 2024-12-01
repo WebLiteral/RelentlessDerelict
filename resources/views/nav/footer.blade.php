@@ -1,6 +1,6 @@
-<div class='bg-black border-t-2 border-white w-full shadow-3xl font-bebas flex justify-center'>
+<div class='bg-dark border-t-2 border-light w-full shadow-3xl font-bebas flex justify-center'>
     <div
-        class="text-white px-2 object-cover font-bebas p-4 text-center flex lg:flex-row flex-col justify-between w-full max-w-7xl">
+        class="text-light px-2 object-cover font-bebas p-4 text-center flex lg:flex-row flex-col justify-between w-full max-w-7xl">
         <div class="md:text-left">
 
             <p class="text-4xl md:text-3xl">contact@literalhat.com</p>

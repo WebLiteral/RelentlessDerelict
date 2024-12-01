@@ -1,9 +1,11 @@
-@extends('layouts.base')
+@extends('layouts.gallery')
 
 @section('title', 'Gallery')
 
 @section('content')
 
+
+<x-default-layout>
 <div class="flex flex-col items-center">
     <h1 class="font-oldenglish text-7xl text-center pb-1 pt-10 px-4 m-5">#{{$artwork->id}} - {{$artwork->title}}</h1>
     <div class="border-t-2 w-full flex items-center flex-col">
@@ -22,14 +24,14 @@
 
     <div class="w-5/12 py-16 text-xl pb-52">
         <ul class="space-y-5">
-            <li><span class="lh-artworklabel">Title</span><span class="lh-artworklabel2">{{$artwork->title}}</span></li>
-            <li><span class="lh-artworklabel">Artwork No.</span><span class="lh-artworklabel2">#{{$artwork->id}}</span>
+            <li><span>Title</span><span class="lh-artworklabel2">{{$artwork->title}}</span></li>
+            <li><span>Artwork No.</span><span class="lh-artworklabel2">#{{$artwork->id}}</span>
             </li>
-            <li><span class="lh-artworklabel">Date Created</span><span
+            <li><span>Date Created</span><span
                     class="lh-artworklabel2">{{$artwork->date_created}}</span></li>
-            <li><span class="lh-artworklabel">Medium</span><span class="lh-artworklabel2">{{$artwork->medium}}</span>
+            <li><span>Medium</span><span class="lh-artworklabel2">{{$artwork->medium}}</span>
             </li>
-            <li><span class="lh-artworklabel">Dimensions</span><span
+            <li><span>Dimensions</span><span
                     class="lh-artworklabel2">{{$artwork->dimensions}}</span></li>
         </ul>
     </div>
@@ -38,6 +40,6 @@
 
 
 
-
+</x-default-layout>
 
 @endsection
